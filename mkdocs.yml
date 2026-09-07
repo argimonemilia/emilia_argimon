@@ -5,7 +5,7 @@ site_author: Maria Emilia
 copyright: Copyleft 2024 "Emilia Argimon" - GNU Free Documentation License
 repo_name: "Name : Github Repo"
 site_url: https://emiliaargimon.github.io/emilia_argimon/
-repo_url: https://github.com/emiliaargimon/emilia_argimon
+repo_url: https://github.com/argimonemilia/emilia_argimon
 
 nav:
   - Home: index.md
