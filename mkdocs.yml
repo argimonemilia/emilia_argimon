@@ -1,11 +1,11 @@
 # Replace the text below to customize your site
-site_name: Nombre Estudiante - UTEC & Fab Lab Barcelona & Fab Lab Esan
+site_name: Maria Emilia Argimon - UTEC & Fab Lab Barcelona & Fab Lab Esan
 site_description: Master in Design for Emergent Futures
-site_author: Nombre Estudiante
-copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
+site_author: Maria Emilia
+copyright: Copyleft 2024 "Emilia Argimon" - GNU Free Documentation License
 repo_name: "Name : Github Repo"
-site_url: https://mathira.github.io/efdi-template/
-repo_url: https://github.com/mathira/efdi-template
+site_url: https://mathira.github.io/emilia_argimon/
+repo_url: https://github.com/mathira/emilia_argimon
 
 nav:
   - Home: index.md
