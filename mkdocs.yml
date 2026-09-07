@@ -4,8 +4,8 @@ site_description: Master in Design for Emergent Futures
 site_author: Maria Emilia
 copyright: Copyleft 2024 "Emilia Argimon" - GNU Free Documentation License
 repo_name: "Name : Github Repo"
-site_url: https://mathira.github.io/emilia_argimon/
-repo_url: https://github.com/mathira/emilia_argimon
+site_url: https://emiliaargimon.github.io/emilia_argimon/
+repo_url: https://github.com/emiliaargimon/emilia_argimon
 
 nav:
   - Home: index.md
