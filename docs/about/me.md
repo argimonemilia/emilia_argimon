@@ -19,7 +19,7 @@ En ese momento yo lo entendía simplemente como jugar, crear y compartir. Mirán
 <h2>De “quiero crear cosas” a diseñadora industrial</h2>
 
 <img src="../../images/hola/graduacion.png"
-     style="width: 100%; height: 300px; object-fit: cover; object-position: center 60%; display: block;">
+     style="width: 100%; height: 450px; object-fit: cover; object-position: center 60%; display: block;">
 <p style="text-align: justify;">
 A los 15 años ya decía que quería ser diseñadora industrial. ¿Sabía explicar exactamente qué hacía una diseñadora industrial? No. Pero tenía algo bastante claro: quería crear cosas y, si además podían ayudar o hacer algo por o para las personas, mucho mejor.
 Ese camino me llevó a estudiar en la Facultad de Arquitectura, Diseño y Urbanismo de la Universidad de la República. Allí me formé en la Escuela Universitaria Centro de Diseño y me recibí como licenciada en Diseño Industrial, perfil Producto.
@@ -29,7 +29,7 @@ Así, casi sin darme cuenta, aquella niña que pasaba las tardes pintando en el 
 <h2>Diseñar también es animarse</h2>
 
 <img src="../../images/hola/aventura.png"
-     style="width: 100%; height: 300px; object-fit: cover; object-position: center 60%; display: block;">
+     style="width: 100%; height: 450px; object-fit: cover; object-position: center 60%; display: block;">
 <p style="text-align: justify;">
 Entiendo al diseño como una herramienta para abordar problemas a través del análisis, buscando soluciones equilibradas que contemplen las necesidades de las partes involucradas.
 Me interesa comprender cada situación antes de proponer una respuesta: observar cómo las personas se relacionan con un producto, detectar qué está funcionando y qué no, investigar las alternativas existentes y probar diferentes posibilidades.
