@@ -67,6 +67,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mt01-construyendo-mi-espacio-digital" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -219,6 +224,8 @@
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
     
     
     <a href="./" title="About sitio web" class="md-nav__link md-nav__link--active">
@@ -425,6 +432,21 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
@@ -438,9 +460,85 @@
                   
                 
                 
-                  <h1>About sitio web</h1>
-                
-                
+                <h1 id="mt01-construyendo-mi-espacio-digital"><em>MT01</em>. Construyendo mi espacio digital!<a class="headerlink" href="#mt01-construyendo-mi-espacio-digital" title="Permanent link">&para;</a></h1>
+<p><strong>Del primer commit a mi página web</strong></p>
+<p style="text-align: justify;">
+En este primer módulo comencé a construir el espacio donde voy a documentar mi recorrido durante el posgrado. El desafío no era solamente crear una página web, sino también aprender a organizar la información, registrar el proceso y darle una identidad propia.
+Entre instalaciones, comandos, decisiones visuales y algunos errores difíciles de descifrar, la página fue tomando forma.
+</p>
+
+<p><img alt="" src="../../images/MT01/foto1.jfif" />
+<small><em>Edición y previsualización local de mi página web durante las primeras etapas del proyecto. </em></small></p>
+<p><strong>Mapa de Recorrido</strong>
+<img alt="" src="../../images/MT01/maparecorrido.jfif" />
+<small><em>Imgen representativa del proceso realizado durante el MT01 creada con ia </em></small></p>
+<p><strong>Punto de partida</strong></p>
+<p style="text-align: justify;">
+El objetivo era crear un repositorio y una página web personal como una "bitacora de procesos". Al comenzar tenía muchas dudas e incertidumbres, ya que casi no he tenido experiencia con el area de la programacion,comandos y paginas web. 
+Mi primer desafío fue entender cuales eran las herramientas, cómo se relacionaban y que podía hacer con cada una. Al principio parecían elementos independientes, pero poco a poco fui comprendiendo que cada una cumplía una función dentro del mismo sistema.
+</p>
+<p>Les adjunto un pdf con <a href="https://drive.google.com/file/d/190Xl5ZQK-6tV62VCoun3beRZGXf3MLF5/view?usp=sharing" target="_blank" rel="noopener noreferrer">mis apuntes</a>, quizas le pueda servir a alguien para comprender mejor las herramientas y como se relacionan.</p>
+<p><strong>Preparando las herramientas</strong></p>
+<p>Antes de comenzar a construir la página, instalé y configuré las herramientas necesarias para editar, visualizar, guardar y publicar el proyecto.</p>
+<p><u>Tabla de Herramientas</u>
+<img alt="" src="../../images/MT01/tabladeherramientas.jfif" />
+<small><em>Hice esta tabla para recordar para que se utiliza cada herrammienta</em></small></p>
+<p style="text-align: justify;"> 
+En esta etapa explico una parte del proceso de instalacion de las herramientas digitales y el desarrollo de pagina web, indicando los conceptos y partes que considere mas importantes del proceso.</p>
+
+<p><strong>1. Instalamos Git en Windows</strong>
+Git es el programa que registra las versiones de los archivos y permite sincronizarlas con GitHub.</p>
+<div class="admonition danger">
+<p class="admonition-title">Error</p>
+<p>Instalé Git pero no me funcionaba nada de lo que intentaba hacer, ni siquiera el primer paso. Esto ocurrió al momento de instalarlo ya que seleccioné aceptar todo con “Next”. Luego entendí que algo estaba mal, así que decidí desinstalarlo y volverlo a instalar.</p>
+<p>Allí verifiqué cada paso hasta encontrar el error que había cometido anteriormente. Una vez instalado nuevamente, comencé con los primeros pasos.</p>
+</div>
+<p><strong>2. Comprobe Git y configure mi identidad</strong>
+<img alt="" src="../../images/MT01/GIT.PNG" /></p>
+<p>Primero utilicé el comando <code>git --version</code> para comprobar que Git se hubiera instalado correctamente. Luego configuré mi nombre y correo electrónico, datos que permiten identificar quién realiza cada cambio dentro del proyecto.</p>
+<p>Finalmente, con <code>git config --global --list</code>, verifiqué que la información hubiera quedado guardada correctamente.</p>
+<p><strong>3. Cree una llave SSH para conectar GitHub</strong>
+<img alt="" src="../../images/MT01/sshh.JPG" />
+<small><em>SSH permite que GitHub reconozca tu computadora cuando descargás o subís cambios. La llave pública va a GitHub y la privada permanece en tu PC</em></small></p>
+<p>Para conectar mi computadora con GitHub utilicé una clave SSH. Primero comprobé si ya existía una y, al confirmar que no había ninguna, generé una nueva mediante la terminal.</p>
+<p>Registré la clave pública en mi cuenta de GitHub y realicé una prueba de autenticación. Al aceptar GitHub como servidor confiable, la conexión quedó establecida correctamente.</p>
+<div class="admonition danger">
+<p class="admonition-title">Error</p>
+<p>Al intentar visualizar la clave pública, la terminal indicó que el archivo no existía. Revisé la ruta y corregí el comando. Luego pude copiar la clave, registrarla en GitHub y comprobar que la autenticación funcionaba correctamente.</p>
+</div>
+<p><strong>4.Instale Python y comprobamos pip</strong></p>
+<p><img alt="" src="../../images/MT01/py.JPG" />
+<small><em>py -m pip install mkdocs: instala MkDocs.</small><em></p>
+<p><strong>5. Cree un fork y clonamos el repositorio</strong>
+<img alt="" src="../../images/MT01/fork.JPG" /></p>
+<p style="text-align: justify;"> Para comenzar a trabajar sobre la página, primero realicé un fork del repositorio original del curso. Esto creó una copia dentro de mi cuenta de GitHub que podía modificar sin alterar el proyecto original.</p>
+
+<p><strong>6.Comencé a editar la página en Visual Studio Code, utilizando Markdown para organizar el contenido y MkDocs para visualizar los cambios en el navegador</strong>
+<img alt="" src="../../images/MT01/MK.JPG" /></p>
+<p style="text-align: justify;">
+Aquí comenzó el desafío de diseñar la página y cargar su contenido. Mientras incorporaba la información, también buscaba la manera de presentarla de forma más atractiva: probé cuadros, diferentes tamaños de texto, negritas e imágenes que ayudaran a explicar cada etapa.
+
+Esta parte me llevó bastante tiempo porque, como diseñadora, no podía concentrarme solamente en el contenido. Necesitaba que la página también fuera estética, ordenada y fácil de leer. Por eso, cada avance estuvo acompañado de nuevas pruebas y ajustes en la forma de comunicar la información.</p>
+<p><img alt="" src="../../images/MT01/visual.JPG" /></p>
+<p><strong>7.Cree un commit y sincronice con GitHub y GitHub Pages</strong>
+<img alt="" src="../../images/MT01/commit.JPG" />
+<small><em>Guardar actualizar el archivo local (Ctrl + S). Commit registra una versión con un mensaje. Sync Changes envía la versión a GitHub y trae cambios remotos.</em></small>
+<img alt="" src="../../images/MT01/commitok.JPG" />
+<small><em>Verifique el cambio y habilite GitHub Actions</em></small></p>
+<p><img alt="" src="../../images/MT01/pages.JPG" />
+<small><em>Actions guarda la web construida en la rama gh-pages. GitHub Pages publica esos archivos en Internet. El botón Visit site abre la página.</em></small></p>
+<p><strong>Revise repositorio</strong></p>
+<p><img alt="" src="../../images/MT01/repo.JPG" /></p>
+<div class="admonition danger">
+<p class="admonition-title">Error</p>
+<p><strong>¿Por qué no funcionaba?</strong></p>
+<p>El botón todavía mostraba la información genérica de la plantilla y no estaba correctamente vinculado con mi repositorio. Revisé el archivo <code>mkdocs.yml</code> y corregí <code>repo_url</code> con la dirección de mi repositorio en GitHub. También verifiqué <code>site_url</code>, donde se indica la dirección pública de la página web. Luego de guardar y actualizar los cambios, el enlace comenzó a funcionar correctamente.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Resumen</p>
+<p>Este primer módulo fue un recorrido de aprendizaje, prueba y error. Al comenzar tenía muy poca experiencia con programación, comandos y creación de páginas web, por lo que uno de mis principales aprendizajes fue comprender cómo se relacionan las diferentes herramientas utilizadas.
+Cometí varios errores con la instalación, los comandos, las rutas de las imágenes y la configuración, pero cada uno me permitió entender mejor las herramientas. Lo que más tiempo me llevó fue organizar el contenido y darle una estética clara y personal. Para resolver mis dudas utilicé ChatGPT, pidiéndole que me explicara cada error, cómo solucionarlo y por qué debía hacerlo de esa manera.</p>
+</div>
                 
                   
                     
@@ -449,7 +547,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="August 31, 2026 17:17:31 UTC">August 31, 2026</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="September 13, 2026 18:11:59 UTC">September 13, 2026</span>
     
   </small>
 </div>
